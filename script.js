@@ -14,3 +14,12 @@ function minMax(arr) {
 }
 
 console.log(minMax([2, 31, 4, 5, 6]));
+
+// Challenge 3
+((length, width) => {
+  const area = length * width;
+
+  const output = `The area of a rectangle with a length of ${length} and a width of ${width} is ${area}.`;
+
+  console.log(output);
+})(20, 10);
